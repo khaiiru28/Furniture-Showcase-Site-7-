@@ -4,7 +4,7 @@ import { Card } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { X, MessageCircle, Send, Sparkles, ArrowRight, ShoppingCart } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 interface Message {
   id: string;

@@ -9,7 +9,7 @@ import { Separator } from "./ui/separator";
 import { Badge } from "./ui/badge";
 import { Alert, AlertDescription } from "./ui/alert";
 import { createOrder } from "../utils/crm-helpers";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 import { trackCheckoutStart, trackCheckoutComplete } from "../utils/journey-tracker";
 import { 
   ShoppingBag, 

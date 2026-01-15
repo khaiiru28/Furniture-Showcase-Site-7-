@@ -35,7 +35,7 @@ import { Dialog, DialogContent, DialogClose, DialogTitle, DialogDescription } fr
 import { Toaster } from "./components/ui/sonner";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./components/ui/accordion";
 import { useState, useEffect, useRef } from "react";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 import { seedCRMData } from "./utils/crm-seed-data";
 import { captureAbandonedCartLead } from "./utils/crm-helpers";
 import { initJourneyTracking, trackPageView, trackProductView, trackAddToCart, trackRemoveFromCart, trackCartCleared, trackCartAbandoned } from "./utils/journey-tracker";

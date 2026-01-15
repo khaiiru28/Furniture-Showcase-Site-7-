@@ -5,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 import { Card } from "./ui/card";
 import { Check, ArrowRight, Home, Bed, Utensils, Briefcase, Armchair, Baby, Minus, Plus, ShoppingCart } from "lucide-react";
 import { useState } from "react";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 interface StagingPackage {
   id: number;

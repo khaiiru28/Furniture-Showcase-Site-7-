@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from './ui/
 import { Badge } from './ui/badge';
 import { Eye, ShoppingCart, CheckCircle2, RefreshCw, Play } from 'lucide-react';
 import { trackProductView, trackCheckoutComplete, trackAddToCart } from '../utils/journey-tracker';
-import { toast } from 'sonner@2.0.3';
+import { toast } from "sonner";
 import { API_BASE, publicAnonKey } from '../utils/supabase/client';
 
 export function AnalyticsDebugger() {

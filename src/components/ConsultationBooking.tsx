@@ -9,7 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from ".
 import { Calendar } from "./ui/calendar";
 import { Progress } from "./ui/progress";
 import { Calendar as CalendarIcon, Clock, Home, Video, MapPin, CheckCircle2, ArrowRight, ArrowLeft, Sparkles } from "lucide-react";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 interface ConsultationBookingProps {
   open: boolean;

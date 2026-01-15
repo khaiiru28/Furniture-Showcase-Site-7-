@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "./ui/dialog";
 import { useState, useEffect } from "react";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 import { API_BASE, publicAnonKey } from "../utils/supabase/client";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { trackProductView } from "../utils/journey-tracker";
