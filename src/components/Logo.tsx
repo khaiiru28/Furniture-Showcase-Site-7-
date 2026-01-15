@@ -1,4 +1,4 @@
-import logoIcon from "figma:asset/b34558d3dc7165ceafa245f85eb88fb484004405.png";
+import logoIcon from "../assets/b34558d3dc7165ceafa245f85eb88fb484004405.png";
 
 interface LogoProps {
   variant?: "default" | "light" | "dark" | "icon-only";

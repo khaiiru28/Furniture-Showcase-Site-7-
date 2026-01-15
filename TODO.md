@@ -104,3 +104,25 @@ Added to `~/.zshrc` for permanent fix.
 ### Status: ✅ FIXED
 - Dev server now running at http://localhost:3000/
 - Website should load successfully in browser
+
+---
+
+## 🔧 Figma Import Fix (Completed)
+
+### Issue:
+- `src/components/Logo.tsx` used Figma-specific import syntax: `figma:asset/...`
+- This syntax doesn't work in a regular web app
+
+### Solution:
+Converted Figma import to local asset path:
+```tsx
+// FROM:
+import logoIcon from "figma:asset/b34558d3dc7165ceafa245f85eb88fb484004405.png";
+
+// TO:
+import logoIcon from "../assets/b34558d3dc7165ceafa245f85eb88fb484004405.png";
+```
+
+### Status: ✅ FIXED
+- Logo.tsx updated with correct import path
+- Dev server HMR updated the page successfully
